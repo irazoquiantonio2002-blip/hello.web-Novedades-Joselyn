@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">Novedades Joselyn</title>
+  <desc id="desc">Logotipo transparente inspirado en el rotulo colorido de Novedades Joselyn.</desc>
+  <defs>
+    <linearGradient id="rainbow" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ee3f87"/>
+      <stop offset=".22" stop-color="#f6a625"/>
+      <stop offset=".45" stop-color="#36b66d"/>
+      <stop offset=".68" stop-color="#1b9bd7"/>
+      <stop offset="1" stop-color="#8b55b8"/>
+    </linearGradient>
+    <filter id="shadow" x="-8%" y="-10%" width="116%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="4" flood-color="#46214b" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M43 75c56-43 141-52 218-32 50 13 94 14 147 3 80-16 176 3 230 48 20 17 25 47 3 64-64 51-167 55-249 33-55-15-97-9-150 3-77 18-164 5-210-42-21-22-14-58 11-77Z" fill="#fff5bf"/>
+    <path d="M43 75c56-43 141-52 218-32 50 13 94 14 147 3 80-16 176 3 230 48 20 17 25 47 3 64-64 51-167 55-249 33-55-15-97-9-150 3-77 18-164 5-210-42-21-22-14-58 11-77Z" fill="none" stroke="#ffbf1f" stroke-width="10"/>
+  </g>
+  <g font-family="Nunito, Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="360" y="105" font-size="78" fill="url(#rainbow)" stroke="#ffffff" stroke-width="8" paint-order="stroke">Novedades</text>
+    <text x="377" y="168" font-size="76" fill="#ee3f87" stroke="#ffffff" stroke-width="8" paint-order="stroke">Joselyn</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M132 43c-18-20-45-23-64-7" stroke="#1b9bd7" stroke-width="8"/>
+    <path d="M118 52c-21-7-43-3-58 13" stroke="#36b66d" stroke-width="8"/>
+    <path d="M595 48c25-14 50-9 66 13" stroke="#ee3f87" stroke-width="8"/>
+    <path d="M578 36c18-21 46-26 68-12" stroke="#f6a625" stroke-width="8"/>
+    <path d="M251 184c62 18 150 17 219-4" stroke="#8b55b8" stroke-width="8"/>
+  </g>
+  <g fill="#ffbf1f">
+    <path d="M90 117l7 14 15 2-11 11 3 15-14-7-13 7 3-15-11-11 15-2 6-14Z"/>
+    <path d="M610 122l5 10 11 2-8 7 2 11-10-5-10 5 2-11-8-7 11-2 5-10Z"/>
+  </g>
+  <path d="M535 160c20 9 52 5 69-10" fill="none" stroke="#1b9bd7" stroke-width="8" stroke-linecap="round"/>
+</svg>

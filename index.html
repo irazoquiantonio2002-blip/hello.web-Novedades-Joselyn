@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novedades Joselyn | Ropa, mochilas y articulos para el hogar</title>
+  <meta name="description" content="Novedades Joselyn es una tienda local con ropa, mochilas, articulos de cocina, hogar y productos variados para la familia. Compra practica, cercana y colorida.">
+  <meta name="keywords" content="Novedades Joselyn, tienda de novedades, ropa, mochilas, articulos de cocina, articulos para el hogar, tienda local">
+  <meta name="author" content="Novedades Joselyn">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Novedades Joselyn | Moda, hogar y novedades para todos los dias">
+  <meta property="og:description" content="Ropa, mochilas, cocina, hogar y detalles practicos en una tienda local pensada para la comunidad.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:image" content="assets/img/fachada-novedades-joselyn.jpeg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-novedades-joselyn.svg">
+  <link rel="apple-touch-icon" href="assets/img/fachada-novedades-joselyn.jpeg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ LOADING SCREEN ============ -->
+  <div id="loading-screen" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-ring"></div>
+      <img src="assets/img/logo-novedades-joselyn.svg" alt="" class="loader-logo">
+    </div>
+  </div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Novedades Joselyn - Inicio">
+        <img src="assets/img/logo-novedades-joselyn.svg" alt="Novedades Joselyn" class="brand-logo">
+        <span class="brand-text">
+          <span class="brand-name">Novedades Joselyn</span>
+          <span class="brand-tagline">Moda, hogar y detalles</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#servicios" class="nav-link">Productos</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#contacto" class="nav-link">Visitanos</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn-primary btn-nav">Consultar Disponibilidad</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu de navegacion" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <canvas id="particles-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow reveal" data-reveal>Tienda local para la familia</p>
+
+        <h1 class="hero-title reveal" data-reveal>
+          <span class="gradient-text">Todo eso que buscas.</span><br>
+          <span class="gradient-text">En un lugar cercano.</span>
+        </h1>
+
+        <p class="hero-typewriter reveal" data-reveal>
+          Encuentra <span class="typewriter-word" id="typewriter"></span><span class="typewriter-cursor">|</span>
+        </p>
+
+        <p class="hero-desc reveal" data-reveal>
+          Novedades Joselyn reune moda, mochilas, articulos de cocina, hogar y productos utiles para el dia a dia en una experiencia de compra amable, colorida y facil de recorrer.
+        </p>
+
+        <div class="hero-cta reveal" data-reveal>
+          <a href="#servicios" class="btn btn-primary btn-lg">
+            <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path fill="currentColor" d="M7 4h-2l-1 5v2a3 3 0 0 0 2 2.83V20h12v-6.17A3 3 0 0 0 20 11V9l-1-5H7Zm11 5v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Zm10 9H8v-4.17a3 3 0 0 0 3-1.01 3 3 0 0 0 4 0 3 3 0 0 0 1 .75V18Z"/></svg>
+            Ver productos
+          </a>
+          <a href="#contacto" class="btn btn-outline btn-lg">Planear mi visita</a>
+        </div>
+
+        <div class="hero-social reveal" data-reveal>
+          <span class="hero-social-label">Secciones favoritas</span>
+          <div class="social-links">
+            <a href="#moda" aria-label="Ver ropa y accesorios">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16 3 21 6v4l-3-1.4V21H6V8.6L3 10V6l5-3h2a2 2 0 0 0 4 0h2Z"/></svg>
+            </a>
+            <a href="#mochilas" aria-label="Ver mochilas y accesorios">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 6V5a4 4 0 0 1 8 0v1h1.5A2.5 2.5 0 0 1 20 8.5V21H4V8.5A2.5 2.5 0 0 1 6.5 6H8Zm2 0h4V5a2 2 0 0 0-4 0v1Zm-3 6h10v-2H7v2Z"/></svg>
+            </a>
+            <a href="#hogar" aria-label="Ver articulos para cocina y hogar">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 21V9l8-6 8 6v12h-6v-7h-4v7H4Zm4-9h8V9.8l-4-3-4 3V12Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#nosotros" class="scroll-indicator" aria-label="Desplazate hacia abajo">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ SOBRE NOSOTROS ============ -->
+    <section class="about" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-media reveal" data-reveal>
+          <div class="about-media-frame">
+            <img src="assets/img/hogar-estantes-novedades-joselyn.jpeg" alt="Estantes de Novedades Joselyn con articulos para cocina, hogar y regalos" loading="lazy">
+          </div>
+          <div class="about-media-badge">
+            <span class="badge-number">4</span>
+            <span class="badge-label">Categorias<br>para explorar</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow reveal" data-reveal>Sobre Novedades Joselyn</p>
+          <h2 class="section-title reveal" data-reveal>Una tienda practica, <span class="text-gold">colorida y cercana</span> para la comunidad.</h2>
+          <p class="section-desc reveal" data-reveal>
+            Novedades Joselyn es un establecimiento pensado para resolver necesidades cotidianas con variedad y trato amable. Su propuesta combina ropa, mochilas, cocina, hogar y productos diversos en un espacio accesible para toda la familia.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16 3 21 6v4l-3-1.4V21H6V8.6L3 10V6l5-3h2a2 2 0 0 0 4 0h2Z"/></svg>
+              </div>
+              <div>
+                <h3>Moda casual</h3>
+                <p>Ropa para uso diario, prendas comodas y accesorios que se adaptan a diferentes edades y estilos.</p>
+              </div>
+            </div>
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 6V5a4 4 0 0 1 8 0v1h1.5A2.5 2.5 0 0 1 20 8.5V21H4V8.5A2.5 2.5 0 0 1 6.5 6H8Zm2 0h4V5a2 2 0 0 0-4 0v1Zm-3 6h10v-2H7v2Z"/></svg>
+              </div>
+              <div>
+                <h3>Mochilas y complementos</h3>
+                <p>Opciones practicas para escuela, paseo o regalo, junto con gorras y detalles faciles de elegir.</p>
+              </div>
+            </div>
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4h14v5a5 5 0 0 1-4 4.9V19h4v2H5v-2h4v-5.1A5 5 0 0 1 5 9V4Zm2 2v3a3 3 0 0 0 6 0V6H7Zm8 0v3c0 .65-.13 1.27-.36 1.82A3 3 0 0 0 17 7.88V6h-2Z"/></svg>
+              </div>
+              <div>
+                <h3>Cocina y hogar</h3>
+                <p>Articulos utiles, organizadores, vasos, utensilios y novedades para hacer mas facil la vida en casa.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Nuestras secciones</p>
+          <h2 class="section-title reveal" data-reveal>Una vuelta por la tienda puede resolver <span class="text-gold">mucho mas de lo que imaginabas.</span></h2>
+          <p class="section-desc reveal" data-reveal>Explora un surtido variado para vestir, equipar la casa, encontrar mochilas y llevar detalles practicos para cada ocasion.</p>
+        </div>
+
+        <!-- Category 1: Moda -->
+        <div class="service-category reveal" data-reveal id="moda">
+          <div class="service-cat-media">
+            <img src="assets/img/ropa-colorida-novedades-joselyn.jpeg" alt="Ropa casual en tonos pastel disponible en Novedades Joselyn" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>01 - Moda</span>
+            <h3>Ropa para el dia a dia</h3>
+            <p class="service-cat-desc">Prendas casuales, comodas y faciles de combinar para quienes buscan variedad sin complicarse.</p>
+            <ul class="service-list">
+              <li>Playeras, conjuntos y prendas casuales</li>
+              <li>Opciones para adultos, jovenes y uso familiar</li>
+              <li>Colores neutros, tonos alegres y piezas de temporada</li>
+              <li>Complementos utiles como gorras y accesorios</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Category 2: Mochilas -->
+        <div class="service-category service-category--reverse reveal" data-reveal id="mochilas">
+          <div class="service-cat-media">
+            <img src="assets/img/mochilas-gorras-novedades-joselyn.jpeg" alt="Mochilas infantiles y gorras exhibidas en Novedades Joselyn" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>02 - Mochilas y detalles</span>
+            <h3>Para escuela, paseo y regalo</h3>
+            <p class="service-cat-desc">Productos practicos para acompanarte todos los dias, con disenos llamativos para chicos y grandes.</p>
+            <ul class="service-list">
+              <li>Mochilas con personajes y modelos variados</li>
+              <li>Gorras y accesorios para complementar el look</li>
+              <li>Detalles ideales para compras rapidas o regalos utiles</li>
+              <li>Novedades que cambian segun disponibilidad en tienda</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Category 3: Hogar -->
+        <div class="service-category reveal" data-reveal id="hogar">
+          <div class="service-cat-media">
+            <img src="assets/img/hogar-cocina-novedades-joselyn.jpeg" alt="Articulos de cocina, vasos, termos y organizadores en Novedades Joselyn" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>03 - Cocina y hogar</span>
+            <h3>Soluciones utiles para casa</h3>
+            <p class="service-cat-desc">Una seleccion pensada para cocinar, organizar, decorar y facilitar las rutinas del hogar.</p>
+            <ul class="service-list">
+              <li>Vasos, termos, recipientes y articulos de cocina</li>
+              <li>Utensilios, organizadores y productos de uso diario</li>
+              <li>Accesorios para reuniones, mesa y celebraciones</li>
+              <li>Productos diversos para descubrir en cada visita</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="services-cta reveal" data-reveal>
+          <p>La disponibilidad puede variar por temporada. Visita la tienda y descubre las novedades del dia.</p>
+          <a href="#contacto" class="btn btn-primary">Quiero visitar la tienda</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BANNER PARALLAX 1 ============ -->
+    <section class="parallax-banner" style="background-image:url('assets/img/fachada-completa-novedades-joselyn.jpeg');">
+      <div class="parallax-overlay"></div>
+      <div class="container parallax-content">
+        <p class="eyebrow reveal" data-reveal>Compra cercana</p>
+        <h2 class="reveal" data-reveal>Entra por algo puntual. Sal con justo lo que necesitabas.</h2>
+      </div>
+    </section>
+
+    <!-- ============ POR QUÉ NOVEDADES JOSELYN ============ -->
+    <section class="why-us">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Por que elegirnos</p>
+          <h2 class="section-title reveal" data-reveal>Una experiencia de compra <span class="text-gold">simple, amable y llena de opciones.</span></h2>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 3 6v6c0 5.1 3.6 9.3 9 10 5.4-.7 9-4.9 9-10V6l-9-4Zm-1 14-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7Z"/></svg>
+            </div>
+            <h3>Variedad en un solo lugar</h3>
+            <p>Moda, cocina, hogar, mochilas y novedades reunidas para ahorrar vueltas y comprar con calma.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1 15 8l7.5 1-5.5 5.2L18.5 22 12 18l-6.5 4 1.5-7.8L1.5 9 9 8Z"/></svg>
+            </div>
+            <h3>Ambiente colorido</h3>
+            <p>Un local con secciones visibles y una estetica alegre que invita a explorar sin prisa.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2c-4.4 0-8 2.2-8 5v2h16v-2c0-2.8-3.6-5-8-5Z"/></svg>
+            </div>
+            <h3>Trato cercano</h3>
+            <p>Atencion amable para familias y vecinos que buscan recomendaciones practicas.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 3h10l4 6-9 12L3 9l4-6Zm1 2L5.6 9H10l1-4H8Zm5 0-1 4h6.4L16 5h-3Zm4.6 6H12l.9 5.2L17.6 11ZM10 11H6.4l4.7 5.2L10 11Z"/></svg>
+            </div>
+            <h3>Detalles utiles</h3>
+            <p>Productos pensados para resolver necesidades reales: vestir, organizar, regalar y usar todos los dias.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BANNER PARALLAX 2 ============ -->
+    <section class="parallax-banner" style="background-image:url('assets/img/ropa-novedades-joselyn.jpeg');">
+      <div class="parallax-overlay"></div>
+      <div class="container parallax-content">
+        <p class="eyebrow reveal" data-reveal>Moda y hogar</p>
+        <h2 class="reveal" data-reveal>Opciones para cada integrante de la casa.</h2>
+      </div>
+    </section>
+
+    <!-- ============ GALERÍA ============ -->
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Galeria</p>
+          <h2 class="section-title reveal" data-reveal>Un vistazo a <span class="text-gold">Novedades Joselyn</span></h2>
+          <p class="section-desc reveal" data-reveal>Fotos reales del local, sus estantes y algunas de las secciones que puedes encontrar al visitarnos.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item reveal" data-reveal>
+            <img src="assets/img/fachada-novedades-joselyn.jpeg" alt="Fachada amarilla de la tienda Novedades Joselyn" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="assets/img/ropa-novedades-joselyn.jpeg" alt="Seccion de ropa casual en Novedades Joselyn" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="assets/img/mochilas-gorras-novedades-joselyn.jpeg" alt="Mochilas y gorras disponibles en Novedades Joselyn" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="assets/img/articulos-fiesta-cocina-novedades-joselyn.jpeg" alt="Articulos para fiesta y cocina exhibidos en Novedades Joselyn" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="assets/img/hogar-cocina-novedades-joselyn.jpeg" alt="Vasos, termos y utensilios para el hogar en Novedades Joselyn" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="assets/img/hogar-estantes-novedades-joselyn.jpeg" alt="Estantes amplios con articulos para el hogar en Novedades Joselyn" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow reveal" data-reveal>Visitanos</p>
+          <h2 class="section-title reveal" data-reveal>Ven a descubrir <span class="text-gold">las novedades del dia</span></h2>
+          <p class="section-desc reveal" data-reveal>El inventario se mueve con la temporada y las necesidades de la comunidad. Pasa por la tienda, recorre las secciones y pregunta por lo que buscas.</p>
+
+          <ul class="contact-list reveal" data-reveal>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+              <span>Busca el local con fachada amarilla y rotulo de Novedades Joselyn.
+                <br><span class="map-link">Datos de direccion no proporcionados en la carpeta del proyecto.</span>
+              </span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4h-2l-1 5v2a3 3 0 0 0 2 2.83V20h12v-6.17A3 3 0 0 0 20 11V9l-1-5H7Zm11 5v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Z"/></svg>
+              <span>Ropa, mochilas, cocina, hogar y productos variados en tienda.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 15 8l7.5 1-5.5 5.2L18.5 22 12 18l-6.5 4 1.5-7.8L1.5 9 9 8Z"/></svg>
+              <span>Atencion amigable para familias, vecinos y clientes que buscan comprar facil.</span>
+            </li>
+          </ul>
+
+          <div class="social-links reveal" data-reveal>
+            <a href="#servicios" aria-label="Ver secciones de productos">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z"/></svg>
+            </a>
+            <a href="#galeria" aria-label="Ver galeria de la tienda">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 5h16v14H4V5Zm2 2v8.6l3.5-3.5 2.5 2.5 4-4L18 12.6V7H6Zm2.5 4A1.5 1.5 0 1 0 8.5 8a1.5 1.5 0 0 0 0 3Z"/></svg>
+            </a>
+            <a href="#inicio" aria-label="Volver al inicio">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3 4 10h3v10h10V10h3L12 3Zm0 2.7 3 2.62V18h-2v-5h-2v5H9V8.32l3-2.62Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map reveal" data-reveal>
+          <img src="assets/img/fachada-completa-novedades-joselyn.jpeg" alt="Entrada de Novedades Joselyn con rotulo colorido y puerta de acceso" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand">
+          <img src="assets/img/logo-novedades-joselyn.svg" alt="Novedades Joselyn" class="brand-logo">
+          <span class="brand-text">
+            <span class="brand-name">Novedades Joselyn</span>
+            <span class="brand-tagline">Moda, hogar y detalles</span>
+          </span>
+        </a>
+        <p>Una tienda local con variedad, color y productos utiles para la vida diaria de la comunidad.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegacion</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Productos</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contacto">Visitanos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Productos</h4>
+        <ul>
+          <li>Ropa y accesorios</li>
+          <li>Mochilas y gorras</li>
+          <li>Cocina y hogar</li>
+          <li>Articulos diversos</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Compra local</h4>
+        <p>Visita el establecimiento y pregunta por las novedades disponibles de temporada.</p>
+        <div class="social-links">
+          <a href="#contacto" aria-label="Ir a informacion de visita">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Novedades Joselyn. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ CTA FLOTANTE ============ -->
+  <a href="#contacto" class="whatsapp-float" aria-label="Consultar informacion de visita">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4h-2l-1 5v2a3 3 0 0 0 2 2.83V20h12v-6.17A3 3 0 0 0 20 11V9l-1-5H7Zm11 5v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Zm-4 0v2a1 1 0 0 1-2 0V9h2Z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
