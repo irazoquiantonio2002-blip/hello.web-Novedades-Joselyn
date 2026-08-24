@@ -481,7 +481,8 @@ section {
 .about-media-frame img,
 .service-cat-media img,
 .gallery-item img,
-.contact-map img {
+.contact-map img,
+.contact-map iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
